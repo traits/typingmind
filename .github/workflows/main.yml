@@ -15,7 +15,7 @@ jobs:
         run: git remote add upstream https://github.com/TypingMind/typingmind.git
 
       - name: Fetch Upstream Changes
-        run: git fetch upstream
+        run: git fetch upstream main
 
       - name: Merge Changes
         run: |
