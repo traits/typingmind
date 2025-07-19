@@ -20,4 +20,4 @@ jobs:
       - name: Merge Changes
         run: |
           git checkout main
-          git merge upstream/main --allow-unrelated-histories
+          git rebase upstream/main
